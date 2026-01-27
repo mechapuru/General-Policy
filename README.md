@@ -15,11 +15,6 @@
 </p>
 
 
-**International Conference on Learning Representations (ICLR), 2026** 🌟
-
-</p>
-
-
 <div align="center">
   <br>
   <img src="pipeline.png" alt="dp3" width="99%">
