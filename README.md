@@ -15,30 +15,6 @@
 </p>
 
 
-
-<p align="center" >
-<a href="https://sagecao1125.github.io/">Jiahang Cao</a><sup>*1,2,3</sup>, 
-<a href="https://openreview.net/profile?id=~Yize_Huang1">Yize Huang</a><sup>*1,4</sup>, 
-<a href="https://scholar.google.com/citations?user=q3x6KsgAAAAJ">Hanzhong Guo</a><sup>1</sup>, 
-<a href="https://openreview.net/profile?id=~Rui_Zhang27">Rui Zhang</a><sup>1</sup>, 
-<a href="https://openreview.net/profile?id=~Mu_Nan2">Mu Nan</a><sup>1</sup>, 
-<a href="https://scholar.google.com/citations?user=6nUpVxIAAAAJ&hl">Weijian Mai</a><sup>1</sup>, 
-<a href="https://scholar.google.com/citations?user=DjQT_G0AAAAJ">Jiaxu Wang</a><sup>5</sup>, 
-<a href="https://chaducheng.github.io/">Hao Cheng</a><sup>5</sup>, 
-<a href="https://openreview.net/profile?id=~Jingkai_SUN1">Jingkai Sun</a><sup>1</sup>, 
-<a href="https://openreview.net/profile?id=~Gang_Han1">Gang Han</a><sup>2</sup>, 
-<a href="https://openreview.net/profile?id=~Wen_Zhao2">Wen Zhao</a><sup>2</sup>, 
-<a href="https://github.com/jonyzhang2023">Qiang Zhang</a><sup>2</sup>, 
-<a href="https://openreview.net/profile?id=~Yijie_Guo3">Yijie Guo</a><sup>2</sup>, 
-<a href="https://scholar.google.com/citations?user=jrX2FekAAAAJ">Qihao Zheng</a><sup>3</sup>, 
-<a href="https://cf-song.github.io/">Chunfeng Song</a><sup>3</sup>, 
-<a href="https://scholar.google.com/citations?user=dGZ3vH8AAAAJ">Xiao Li</a><sup>4</sup>, 
-<a href="http://luoping.me/">Ping Luo</a><sup>1</sup>, 
-<a href="https://andrewluo.net/">Andrew F. Luo</a><sup>1&nbsp;‡</sup>
-
-
-<sup>1</sup>The University of Hong Kong <sup>2</sup>Beijing Innovation Center of Humanoid Robotics <sup>3</sup>Shanghai AI Lab <sup>4</sup>Shanghai Jiaotong University <sup>5</sup>The Hong Kong University of Science and Technology 
-
 **International Conference on Learning Representations (ICLR), 2026** 🌟
 
 </p>
