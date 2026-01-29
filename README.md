@@ -1,5 +1,5 @@
 <h1 align="center">
-	General Policy Composition (GPC)<br>
+	[ICLR 2026] General Policy Composition (GPC)<br>
 </h1>
 
 <p align="center">
