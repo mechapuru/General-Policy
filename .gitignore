@@ -12,6 +12,9 @@ run_all_task.sh
 task_config/*
 *.zip
 
+architecture_composition.md
+proposed_architecture.md
+
 # Code Generation
 robotwin.py
 gpt_api/*
