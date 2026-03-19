@@ -1,6 +1,6 @@
 [submodule "policy/DP3-sim"]
 	path = policy/DP3-sim
-	url = git@github.com:darshil0805/DP3-sim.git
+	url = git@github-mechapuru:mechapuru/Sim-DP3.git
 [submodule "sim-robot"]
 	path = sim-robot
 	url = git@github.com:mechapuru/sim-robot.git
