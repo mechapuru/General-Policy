@@ -1,3 +1,0 @@
-[submodule "policy/DP3-sim"]
-	path = policy/DP3-sim
-	url = git@github-mechapuru:mechapuru/Sim-DP3.git
