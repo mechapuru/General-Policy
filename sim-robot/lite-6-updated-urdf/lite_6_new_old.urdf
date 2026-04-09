@@ -380,10 +380,8 @@
       </material>
     </visual>
     <collision>
-      <!-- Base shape loosely bounds the top module without reaching the cube -->
-      <origin xyz="0 0.01 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.12 0.08 0.07"/>
+        <mesh filename="base.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -402,11 +400,8 @@
       </material>
     </visual>
     <collision>
-      <!-- Mathematical Pad Bounds explicitly generated via Python Trimesh pointcloud filtering -->
-      <origin xyz="0.009 0.155 -0.001" rpy="0 0 0"/>
       <geometry>
-        <!-- 1mm expanded margins to guarantee grip stickiness -->
-        <box size="0.012 0.030 0.014"/>
+        <mesh filename="left.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -432,11 +427,8 @@
       </material>
     </visual>
     <collision>
-      <!-- Mathematical Pad Bounds explicitly generated via Python Trimesh pointcloud filtering -->
-      <origin xyz="-0.002 0.155 -0.001" rpy="0 0 0"/>
       <geometry>
-        <!-- 1mm expanded margins to guarantee grip stickiness -->
-        <box size="0.012 0.030 0.014"/>
+        <mesh filename="right.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>

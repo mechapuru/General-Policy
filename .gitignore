@@ -11,6 +11,8 @@ task_config/seeds/*.txt
 run_all_task.sh
 task_config/*
 *.zip
+*.png
+*.mp4
 
 architecture_composition.md
 proposed_architecture.md

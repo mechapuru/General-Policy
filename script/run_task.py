@@ -133,8 +133,8 @@ def run(Demo_class, args):
             # modify start
             # info_file_path = f'./data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl/scene_info.json'
             # os.makedirs(f'./data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl', exist_ok=True)
-            info_file_path = f'/home/dataset/RoboTwin/data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl/scene_info.json'
-            os.makedirs(f'/home/dataset/RoboTwin/data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl', exist_ok=True)
+            info_file_path = f'/home/paddy/rrc/1cross/General-Policy/dataset/RoboTwin/data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl/scene_info.json'
+            os.makedirs(f'/home/paddy/rrc/1cross/General-Policy/dataset/RoboTwin/data/'+args['task_name']+'_'+str(args['head_camera_type'])+'_pkl', exist_ok=True)
 
             if not os.path.exists(info_file_path):
                 with open(info_file_path, 'w', encoding='utf-8') as file:

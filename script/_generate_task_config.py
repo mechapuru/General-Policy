@@ -20,7 +20,7 @@ names = [
     'shoe_place',
 ]
 for task_name in names:
-    task_config_path = f'../task_config/{task_name}.yml'
+    task_config_path = f'/home/paddy/rrc/1cross/General-Policy/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/config/task/{task_name}.yml'
     data = {
         'task_name': task_name,
         'render_freq': 0,

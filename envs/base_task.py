@@ -800,9 +800,11 @@ class Base_task(gym.Env):
         return jointState_list
     
     def endpose_transform(self, joint, gripper_val):
-        rpy = joint.global_pose.get_rpy()
+        # Handle both physical Joints and Links safely
+        pose = joint.get_pose() if hasattr(joint, 'get_pose') else joint.global_pose
+        rpy = pose.get_rpy()
         roll, pitch, yaw = rpy
-        x,y,z = joint.global_pose.p
+        x, y, z = pose.p
         endpose = {
             "gripper": float(gripper_val),
             "pitch" : float(pitch),

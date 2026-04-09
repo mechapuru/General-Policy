@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!-- SRDF for Lite6 + custom gripper, compatible with mplib Planner -->
+<robot name="lite6">
+  <group name="lite6">
+    <joint name="joint1"/>
+    <joint name="joint2"/>
+    <joint name="joint3"/>
+    <joint name="joint4"/>
+    <joint name="joint5"/>
+    <joint name="joint6"/>
+    <chain base_link="link_base" tip_link="link6"/>
+  </group>
+  <group name="tool_end">
+    <joint name="joint_eef"/>
+  </group>
+  <end_effector group="tool_end" name="end_effector" parent_link="link6"/>
+  <!-- GROUP STATES -->
+  <group_state group="lite6" name="home">
+    <joint name="joint1" value="0"/>
+    <joint name="joint2" value="-1.57"/>
+    <joint name="joint3" value="1.57"/>
+    <joint name="joint4" value="0"/>
+    <joint name="joint5" value="0"/>
+    <joint name="joint6" value="0"/>
+  </group_state>
+  <!-- Disable self-collision pairs: arm links -->
+  <disable_collisions link1="link1" link2="link2" reason="Adjacent"/>
+  <disable_collisions link1="link1" link2="link3" reason="Never"/>
+  <disable_collisions link1="link1" link2="link_base" reason="Adjacent"/>
+  <disable_collisions link1="link2" link2="link3" reason="Adjacent"/>
+  <disable_collisions link1="link2" link2="link4" reason="Never"/>
+  <disable_collisions link1="link2" link2="link_base" reason="Never"/>
+  <disable_collisions link1="link3" link2="link4" reason="Adjacent"/>
+  <disable_collisions link1="link3" link2="link5" reason="Never"/>
+  <disable_collisions link1="link3" link2="link6" reason="Never"/>
+  <disable_collisions link1="link4" link2="link5" reason="Adjacent"/>
+  <disable_collisions link1="link4" link2="link6" reason="Never"/>
+  <disable_collisions link1="link5" link2="link6" reason="Adjacent"/>
+  <!-- EEF collision pairs -->
+  <disable_collisions link1="link3" link2="link_eef" reason="Never"/>
+  <disable_collisions link1="link4" link2="link_eef" reason="Never"/>
+  <disable_collisions link1="link5" link2="link_eef" reason="Never"/>
+  <disable_collisions link1="link6" link2="link_eef" reason="Adjacent"/>
+  <!-- Gripper collision pairs -->
+  <disable_collisions link1="link_eef" link2="base_link" reason="Adjacent"/>
+  <disable_collisions link1="base_link" link2="left_finger" reason="Adjacent"/>
+  <disable_collisions link1="base_link" link2="right_finger" reason="Adjacent"/>
+  <disable_collisions link1="left_finger" link2="right_finger" reason="Never"/>
+  <disable_collisions link1="link6" link2="base_link" reason="Never"/>
+  <disable_collisions link1="link6" link2="left_finger" reason="Never"/>
+  <disable_collisions link1="link6" link2="right_finger" reason="Never"/>
+  <disable_collisions link1="link5" link2="base_link" reason="Never"/>
+  <disable_collisions link1="link4" link2="base_link" reason="Never"/>
+</robot>
