@@ -13,7 +13,7 @@ task_config/*
 *.zip
 *.png
 *.mp4
-
+*.rrd
 architecture_composition.md
 proposed_architecture.md
 

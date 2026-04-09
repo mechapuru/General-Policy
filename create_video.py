@@ -24,8 +24,8 @@ def create_video():
         with open(os.path.join(load_dir, f_name), 'rb') as f:
             data = pickle.load(f)
         
-        # Extract head_camera rgb
-        img = data['observation']['head_camera']['rgb']
+        # Extract front_camera rgb (wrist camera)
+        img = data['observation']['front_camera']['rgb']
         
         # Convert RGB to BGR for OpenCV
         img_bgr = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
@@ -36,7 +36,7 @@ def create_video():
         return
 
     height, width, layers = frames[0].shape
-    video_path = 'episode0_video.mp4'
+    video_path = 'episode0_wrist_video.mp4'
     
     # Save as mp4 at 30 fps
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
