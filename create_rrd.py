@@ -4,7 +4,7 @@ import rerun as rr
 import numpy as np
 
 def create_rrd():
-    load_dir = './data/pick_and_place_D435_pkl/episode0'
+    load_dir = './data_2/pick_and_place_D435_pkl/episode0'
     if not os.path.exists(load_dir):
         print(f"Directory not found: {load_dir}")
         return
@@ -20,7 +20,7 @@ def create_rrd():
     
     # Initialize rerun and save to file instead of connecting to a viewer
     rr.init("pick_and_place_episode", spawn=False)
-    rrd_path = "episode0.rrd"
+    rrd_path = "episode0_2.rrd"
     rr.save(rrd_path)
 
     for idx, f_name in enumerate(pkl_files):

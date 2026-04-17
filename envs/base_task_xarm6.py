@@ -36,7 +36,7 @@ class Base_task_xarm6(Base_task):
         kwags['dual_arm'] = False
         # Update default crop bbox for Lite6 table height (0.62)
         if 'bbox' not in kwags:
-            kwags['bbox'] = [[-0.8, -0.8, 0.60], [0.8, 0.8, 2.0]]
+            kwags['bbox'] = [[-0.8, -0.8, 0.629], [0.8, 0.8, 2.0]]
         
         super()._init(**kwags)
 
